@@ -1,0 +1,60 @@
+.content {
+  display: flex;
+  flex-direction: column; }
+
+.button {
+  margin: auto;
+  cursor: pointer; }
+
+.tradeList-container {
+  width: 500px;
+  margin: 20px auto; }
+
+.trade {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: lightgray;
+  color: black; }
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  opacity: 0.6; }
+
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  min-width: 300px;
+  height: 400px;
+  border-radius: 4px;
+  padding: 10px; }
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid gray; }
+
+.modal-header-closeButton {
+  cursor: pointer; }
+
+.openTradeModal-form {
+  display: flex;
+  flex-direction: column; }
+
+.openTradeModal-form-field {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between; }
+
